@@ -67,11 +67,11 @@ public class Fraction {
                 '}';
     }
 
-    public boolean isProper(){
+    public boolean isProper() {
         return this.denominator > this.numerator;
     }
 
-    public Fraction multiplication(Fraction fraction){
+    public Fraction multiplication(Fraction fraction) {
         return new Fraction(fraction.getNumerator() * numerator,
                 fraction.getDenominator() * denominator);
     }

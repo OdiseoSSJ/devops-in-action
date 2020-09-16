@@ -49,7 +49,7 @@ public class Searches {
         //        .filter(user -> user.equals(user.getFamilyName()));
         return new Fraction();
     }
-    
+
 
     public Fraction findFirstFractionDivisionByUserId(String id) {
         return null;
